@@ -8,7 +8,7 @@ class App extends Component {
   };
   
   componentDidMount() {
-    axios.get('/api/v1/say-something').then((res) => {
+    axios.get('/api/iletisim').then((res) => {
       const response = res.data;
       this.setState({response});
     });
