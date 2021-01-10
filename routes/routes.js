@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
-const controllers = require('./../controllers/controllers');
+const {postiletisim,getiletisim} = require('./../controllers/controllers');
 
-router.get('/iletisim', controllers.postiletisim);
+router.get('/iletisim', getiletisim);
+router.post('/iletisim', postiletisim);
 
 module.exports = router;
