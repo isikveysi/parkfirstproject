@@ -7,6 +7,7 @@ class App extends Component {
     response: {}
   };
   gonder= ()=>{
+    console.log("button çaloitı")
     axios.post('/api/iletisim',
     {
       "name":"vey",
