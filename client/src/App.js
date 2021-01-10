@@ -1,39 +1,36 @@
-import React, { Component } from 'react';
+import React, { Suspense } from 'react';
 import './App.css';
-import axios from 'axios'
+import { Switch, Route } from "react-router-dom"
+import Header from "./components/Header"
+import Footer from "./components/Footer"
+import ScrollToTop from "./components/ScrollToTop"
+const Anasayfa = React.lazy(() => import('./page/Anasayfa'));
+const FaaliyetAlanlarimiz = React.lazy(() => import('./page/Faaliyetalanlarimiz'));
+const Bloglar = React.lazy(() => import('./page/Bloglar'));
+const Hakkimizda = React.lazy(() => import('./page/Hakkimizda'));
+const Iletisim = React.lazy(() => import('./page/Iletisim'));
 
-class App extends Component {
-  state = {
-    response: {}
-  };
-  gonder= ()=>{
-    console.log("button çaloitı")
-    axios.post('/api/iletisim',
-    {
-      "name":"vey",
-      "email":"veysi@gmail.com",
-      "konu":"vey",
-      "message":"vey",
-    }
-    )
-  }
-
-  componentDidMount() {
-    axios.get('/api/iletisim').then((res) => {
-      const response = res.data;
-      this.setState({response});
-    });
-  }
-
-  render() {
-    return (
-      <div className="App">
-        <h1>Hello from the frontend!</h1>
-        <h1>{this.state.response.body}</h1>
-        <button onClick={this.gonder}>gonder</button>
+function App() {
+  return (
+    <>
+     
+      <Header />
+      <ScrollToTop />
+      <div role="main" className="main">    
+        <Switch>
+          <Suspense fallback={<div>Yükleniyor...</div>}>
+            <Route exact path='/' component={Anasayfa}></Route>
+            <Route exact path='/faaliyet-alanlarimiz' component={FaaliyetAlanlarimiz}></Route>
+            <Route exact path='/makaleler' component={Bloglar}></Route>
+            <Route exact path='/hakkimizda' component={Hakkimizda}></Route>
+            <Route exact path='/iletisim' component={Iletisim}></Route>
+          </Suspense>
+        </Switch>
+        <Footer />
       </div>
-    );
-  }
+
+    </>
+  );
 }
 
 export default App;

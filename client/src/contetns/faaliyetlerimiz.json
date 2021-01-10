@@ -1,0 +1,42 @@
+[
+    {
+        "img" : "img/parkimg/cezaHukuku.png",
+        "title" : "Ceza Hukuku",
+        "text" : "Suç adı verilen insan davranışını ve buna uygulanacak yaptırımı belirleyen hukuk kurallarının tümüne ceza hukuku adı verilmektedir."
+    }, 
+     {
+        "img" : "img/parkimg/isHukuku.jpg",
+        "title" : "Iş Hukuku",
+        "text" : "İş hukuku işçiler ile işverenler arasındaki ilişkileri düzenleyen ve inceleyen hukuk dalıdır."
+    }, 
+    {
+       "img" : "img/parkimg/bilisimHukuku.jpg",
+       "title" : "Bilişim Hukuku",
+       "text" : "Bilgi ve iletişim teknolojilerinde meydana gelen değişimler gitgide ivme kazanarak artış göstermektedir. Bu çerçevede ekonomik, finansal, bankacılık, ticari, mali, adli, resmi iletişim, kurumsal iletişim vb.."
+   }, 
+   {
+      "img" : "img/parkimg/aileHukuku.jpg",
+      "title" : "Aile Hukuku",
+      "text" : "Aile hukuku, aileye ilişkin konularla ilgilenen, medeni hukukun kapsamı içinde yer alan bir hukuk dalıdır."
+  }, 
+  {
+     "img" : "img/parkimg/icraHukuku.jpg",
+     "title" : "Icra ve Iflas Hukuku",
+     "text" : "İcra ve iflas hukuku, bir hukuk dalıdır. ... İcra ve iflas hukuku, borcunu ödemeyen borçlunun borcunun, alacaklının talebi üzerine nasıl karşılanacağını konu alır. "
+ }, 
+  {
+     "img" : "img/parkimg/isHukuku.jpg",
+     "title" : "Iş ve Sosyal Güvenlik Hukuku",
+     "text" : "İcra ve iflas hukuku, borcunu ödemeyen borçlunun borcunun, alacaklının talebi üzerine nasıl karşılanacağını konu alır. "
+ },
+ {
+    "img" : "img/parkimg/ticaretHukuku.jpg",
+    "title" : "Ticaret Ve Sirketler Hukuku",
+    "text" : " ticari kanun ve yasaları oluşturma, düzenleme ve yürütme görevini üstlenen ticaret ve şirketler hukuku, aslen ticari işletme esasına dayanmaktadır."
+},
+{
+    "img" : "img/parkimg/insaatHukuku.png",
+    "title" : "Inşaat Hukuku",
+    "text" : "İnşaat hukukunu oluşturan temel kuralların önemli bir kısmı “Borçlar Kanunu”nda bulunmaktadır. İnşaat yapımı Borçlar Hukuku anlamında eser yapımı olarak kabul edilerek “Eser Sözleşmesi” başlığı ile 470 ile 486. maddeleri arasında düzenlenmektedir. Yine Borçlar Kanunundaki sözleşmelerle ilgili düzenlemeler ve oluşturulan konutların ve işyerlerinin satışına yönelik satış sözleşmelerini içeren düzenlemeler İnşaat Hukuku içinde incelenmektedir."
+}
+]
