@@ -4,8 +4,8 @@ const transporter = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: 'veysi.isik188@gmail.com',
-        pass: 'Veysi.306178'
+        user: 'emailyazılacak',
+        pass: 'emailşifresiayzılacal'
     },
 
 })
@@ -14,8 +14,8 @@ const postiletisim = async (req, res, next) => {
     try {
         console.log("req", req.body)
         const mailOptions = await {
-            from: "veysi.isik188@gmail.com", // kim gönderecekse onun email (gönderen)
-            to: "veysi.isik188@gmail.com", // Alıcının email adresi
+            from: "emailyazılacak", // kim gönderecekse onun email (gönderen)
+            to: "emailyazılacak", // Alıcının email adresi
             subject: req.body.konu,
             text: `email= ${req.body.email} mesaj= ${req.body.message} `,
             html: `<h1>siteden gelen</h1>

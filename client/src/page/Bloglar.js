@@ -25,7 +25,7 @@ export default function Bloglar() {
         
     return (
         <div>
-            <p>block</p>
+            <p>Makalerimiz yakında eklenecektir</p>
         </div>
     )
 }

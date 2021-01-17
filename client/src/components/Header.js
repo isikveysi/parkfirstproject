@@ -13,7 +13,7 @@ export default function Header() {
                         <div className="header-column">
                             <div className="header-logo">
                                 <a href="/">
-                                    <img alt="Porto" width={250} height={54} data-sticky-top={33} src="img/parkimg/logo2.jpg" />
+                                    <img alt="ParkHukuk" width={250} height={54} data-sticky-top={33} src="img/parkimg/logo2.jpg" />
                                 </a>
                             </div>
                         </div>
@@ -79,11 +79,11 @@ export default function Header() {
                                                      </a>
                                                 </li> */}
 
-                                                <li> <NavLink exact to="/" activeClassName="active"><i className="fas fa-home"></i> ANASAYFA</NavLink></li>
-                                                <li> <NavLink exact to="/faaliyet-alanlarimiz" activeClassName="active"><i className="fas fa-infinity"></i> FAALİYET ALANLARIMIZ</NavLink></li>
-                                                <li> <NavLink exact to="/makaleler" activeClassName="active"> <i className="fas fa-edit "></i>MAKALELER</NavLink></li>
-                                                <li>  <NavLink exact to="/hakkimizda" activeClassName="active"><i className="fas fa-balance-scale "></i> HAKKIMIZDA</NavLink></li>
-                                                <li> <NavLink exact to="/iletisim" activeClassName="active"> <i className="far fa-envelope "></i> ILETISIM</NavLink></li>
+                                                <li className=""> <NavLink exact to="/" ><i className="fas fa-home"></i> ANASAYFA</NavLink></li>
+                                                <li className=""> <NavLink exact to="/faaliyet-alanlarimiz" ><i className="fas fa-infinity"></i> FAALİYET ALANLARIMIZ</NavLink></li>
+                                                <li className=""> <NavLink exact to="/makaleler" > <i className="fas fa-edit "></i>MAKALELER</NavLink></li>
+                                                <li className="">  <NavLink exact to="/hakkimizda" ><i className="fas fa-balance-scale "></i> HAKKIMIZDA</NavLink></li>
+                                                <li className=""> <NavLink exact to="/iletisim" > <i className="far fa-envelope "></i> ILETISIM</NavLink></li>
 
                                             </ul>
                                         </nav>

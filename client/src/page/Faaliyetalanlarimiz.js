@@ -53,6 +53,9 @@ export default function Faaliyetalanlarimiz() {
 
     return (
         <>
+        
+
+            <div className="container">
             <section className="page-header">
                 <div className="container">
                     <div className="row">
@@ -62,8 +65,6 @@ export default function Faaliyetalanlarimiz() {
                     </div>
                 </div>
             </section>
-
-            <div className="container">
                 <div className="row">
                     <div className="col-md-9">
                         <div className="blog-posts">

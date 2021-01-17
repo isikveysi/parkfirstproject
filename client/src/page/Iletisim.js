@@ -59,7 +59,9 @@ export default class Iletisim extends Component {
     render() {
         return (
             <>
-               <section className="page-header">
+           
+                <div className="container">
+                <section className="page-header">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
@@ -68,8 +70,6 @@ export default class Iletisim extends Component {
                     </div>
                 </div>
             </section>
-                <div className="container">
-                    <div>
                         <div className="col-md-6">
                             <div className="alert alert-success hidden mt-lg" id="contactSuccess">
                                 <strong>Success!</strong> Your message has been sent to us.
@@ -144,7 +144,7 @@ export default class Iletisim extends Component {
                             </ul>
                         </div>
                     </div>
-                </div>
+               
 
             </>
         )

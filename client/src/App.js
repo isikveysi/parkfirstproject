@@ -13,9 +13,9 @@ const Iletisim = React.lazy(() => import('./page/Iletisim'));
 function App() {
   return (
     <>
-     
-      <Header />
       <ScrollToTop />
+      <Header />
+     
       <div role="main" className="main">    
         <Switch>
           <Suspense fallback={<div>Yükleniyor...</div>}>
